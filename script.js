@@ -3,8 +3,8 @@ function lib() {
   var name = document.getElementById('name').value;
   var adjetive = document.getElementById('adjetive').value;
   var noun = document.getElementById('noun').value;
-  story.innerHTML = name + " " + noun + " " + adjetive + " " + "love dogs!";
-
+  story.innerHTML = name + ' ' + noun + ' ' + adjetive + ' ' + 'love dogs!';
 }
+
 var button = document.getElementById('button');
 button.addEventlistner('click', lib);
