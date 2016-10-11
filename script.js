@@ -6,5 +6,5 @@ function lib() {
   story.innerHTML = name + ' ' + noun + ' ' + adjetive + ' ' + 'love dogs!';
 }
 
-var button = document.getElementById('button');
-button.addEventlistner('click', lib);
+var libButton = document.getElementById('lib-button');
+libButton.addEventListner('click', lib);
